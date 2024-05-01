@@ -1,0 +1,45 @@
+main {
+  padding: var(--padding-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: var(--max-width);
+}
+
+main p {
+  font-size: 2.5em;
+}
+
+main div {
+  padding: var(--spacing-lg);
+  background-color: var(--color-card);
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: calc(var(--magic-number) * 4);
+}
+
+.profile {
+  background-color: var(--color-body);
+  border-radius: 1000px;
+  border-radius: 1000px;
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 200px;
+  max-width: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img{
+  border-radius: 1000px;
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 200px;
+  max-width: 200px;
+  background-color: var(--color-body);
+}
